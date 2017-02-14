@@ -15,3 +15,9 @@ puts "----------"
 @store2.employees.create(first_name: "Tony", last_name: "Dude2", hourly_rate: 40)
 
 @store2.employees.create(first_name: "Emilia", last_name: "Dude2", hourly_rate: 40)
+
+@allsotres = Store.all
+
+@allsotres.each do |s|
+  s.employees.create(first_name: "Tony", last_name: "Dude2", hourly_rate: 40)
+end
