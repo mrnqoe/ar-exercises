@@ -20,7 +20,7 @@ mens_apparel: true,
 womens_apparel: false,
 )
 
-Yaletown = Store.create(
+yaletown = Store.create(
 name: 'Yaletown',
 annual_revenue: 430000,
 mens_apparel: true,
